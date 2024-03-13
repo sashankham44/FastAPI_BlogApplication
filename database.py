@@ -5,10 +5,10 @@ from urllib.parse import quote_plus
 import os
 
 # Load environment variables or use default values
-DATABASE_USER = os.getenv("DATABASE_USER", "root")
-DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "Santosh@27")
+DATABASE_USER = os.getenv("DATABASE_USER", "user")
+DATABASE_PASSWORD = os.getenv("DATABASE_PASSWORD", "your_password")
 DATABASE_HOST = os.getenv("DATABASE_HOST", "localhost")
-DATABASE_NAME = os.getenv("DATABASE_NAME", "blogapplication")
+DATABASE_NAME = os.getenv("DATABASE_NAME", "database_name")
 DATABASE_PORT = os.getenv("DATABASE_PORT", "3306")  # Default port for MySQL
 DATABASE_DRIVER = "aiomysql"  # Async driver for MySQL
 
